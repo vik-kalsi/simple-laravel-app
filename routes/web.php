@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ServiceController;
 
 
 
@@ -13,9 +14,7 @@ Route::get('/', function () {
 Route::get('/about', [AboutController::class, "OpenAboutPage"]);
 
 
-Route::get('/services', function () {
-    return view('pages.services');
-});
+Route::get('/services', [ServiceController::class, "OpenServicePage"]);
 
 
 Route::get('/contact', function () {
