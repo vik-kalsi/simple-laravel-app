@@ -11,10 +11,10 @@
     
     <div class="mb-4">
         <ul class="border-2 flex py-2">
-            <li class="px-2"><a href="/">Homepage</a></li>
-            <li class="px-2"><a href="/about">About</a></li>
-            <li class="px-2"><a href="/services">Services</a></li>
-            <li class="px-2"><a href="/contact">Contact</a></li>
+            <li class="px-2"><a class="hover:font-bold" href="/">Homepage</a></li>
+            <li class="px-2"><a class="hover:font-bold" href="/about">About</a></li>
+            <li class="px-2"><a class="hover:font-bold" href="/services">Services</a></li>
+            <li class="px-2"><a class="hover:font-bold" href="/contact">Contact</a></li>
         </ul>
     </div>
 
